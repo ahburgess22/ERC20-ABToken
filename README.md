@@ -1,7 +1,7 @@
 # ABToken (ABT)
 ABT is a custom implementation of the ERC-20 token standard, built for educational and demonstrational purposes. It extends the standard ERC-20 functionality with additional features like transaction fees, staking, and rewards. While the **deployed contract is designed for testing**, this respository reflects a production-like implementation showcasing how such a token could operate in real-world scenarios.
 ## Deployed Contract
-- **Deployed Address:** 0x643433B42b1f1C4cd806c34A613004EC68e828c7
+- **Deployed Address:** 0xAE221f840F22E13ce60F837ac172FDa13c4C02D5
 - **Network:** Sepolia Testnet
 ## Features
 1. **ERC-20 Standad Compliance**
@@ -39,7 +39,7 @@ ABT is a custom implementation of the ERC-20 token standard, built for education
 #### Interacting with the Contract
 1. **Without redeploying:**
    - In Remix, select "Injected Provider - MetaMask" in the environment dropdown.
-   - Click "At Address" and paste the deployed contract address: **_0x643433B42b1f1C4cd806c34A613004EC68e828c7_**.
+   - Click "At Address" and paste the deployed contract address: **_0xAE221f840F22E13ce60F837ac172FDa13c4C02D5_**.
    - Access all functions like _mint_, _burn_, _transfer_, _stake_, and _unstake_.
 2. **With MetaMask:**
    - Add ABT to MetaMask using the deployed address.
