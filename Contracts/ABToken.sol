@@ -11,7 +11,7 @@ contract ABToken is ERC20, Ownable {
         uint256 rewardRate; // Reward percentage for staking
         uint256 feePercentage; // Transaction fee percentage
     }
-    Config public config = Config(50, 20); // Reward rate: 50%, Fee: 20%
+    Config public config = Config(50, 3); // Reward rate: 50%, Fee: 3%
 
     constructor() ERC20("ABToken", "ABT") Ownable(msg.sender) {
         _mint(msg.sender, 1000 * 10 ** decimals());
