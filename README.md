@@ -38,7 +38,7 @@ This repository contains the Solidity source code for ABToken, demonstrating rea
 #### Interacting with the Contract
 - Use Remix or any Ethereum wallet (e.g., MetaMask) to interact with the deployed contract.
 - Test functionality such as minting, burning, staking, and transferring.
-#### Educational Notes
+## Educational Notes
 This project demonstrates the following:
 - Extending the ERC-20 token standard.
 - Implementing advanced token features like fees and staking.
